@@ -2,10 +2,10 @@
 .date {
 	font-family: Courier;
 	color: red;
-	font-size:0px;
+	font-size:10px;
 }
 /* Your custom styles goes here */
-body {
+.body {
   background: #000;
   color: #444;
   font-family: 'Open Sans', sans-serif;
