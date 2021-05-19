@@ -6,7 +6,7 @@
   "sort-media-by": "filename",
   "download-photos": "copy",
   "cleanup": true,
-  "theme": "flow",
+  "theme": "mosaic",
   "theme-style": "./custom.css",
   "footer": "(c) Papa Spiritus IV 2021",
   "usage-stats": false
