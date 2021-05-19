@@ -14,77 +14,63 @@
 
   <body>
 
-    <div>
+    <header>
+      <a href="index.html">
+        <h1>Playnite Graphics Repository</h1>
+      </a>
+    </header>
     
-      <!--
-        Gallery title
-      -->
-      <header style="color: #17baef;">
-        <h1><a href="index.html">Playnite Graphics Repository</a></h1>
-      </header>
+    <!--
+      Breadcrumbs of parent albums
+    -->
     
-      <!--
-        Breadcrumbs of parent albums
-      -->
+    <!--
+      Nested albums
+    -->
+    <ul id="galleries">
+     <li>
+       <a href="Nintendo.html">
+         <h3>Nintendo</h3>
+         <div class="meta">
+           1 photo<br />
+           19 May 2021 - 19 May 2021
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/Nintendo/placeholder.jpg" /></li><li><img src="public/missing.png" /></li><li><img src="public/missing.png" /></li><li><img src="public/missing.png" /></li>     </ul>
+       </a>
+     </li>
+     <li>
+       <a href="Sony.html">
+         <h3>Sony</h3>
+         <div class="meta">
+           5 albums, 19 photos<br />
+           19 May 2021 - 19 May 2021
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/Sony/A.jpg" /></li><li><img src="media/thumbs/Sony/Playstation%201/Playstation_1_Greatest_Hits_(NTSC-U)_600x100.png" /></li><li><img src="media/thumbs/Sony/Playstation%201/Playstation_1_Platinum_(MULTI)_600x100.png" /></li><li><img src="media/thumbs/Sony/Playstation%201/Playstation_1_Standard_(MULTI)_600x100.png" /></li>     </ul>
+       </a>
+     </li>
+    </ul>
     
-      <nav class="breadcrumbs">
-        <div class="mask"></div>
-    <a class="breadcrumb-item" href="index.html">Home</a>
-      </nav>
+    <!--
+      Render all thumbnails
+    -->
+    <ul id="media">
+    </ul>
     
-      <!--
-        Main gallery panel
-      -->
-      <section id="content">
+    <!--
+      Pagination
+    -->
     
-        <!--
-          Nested albums, if any
-        -->
-        <ul id="albums">
-    <li>
-            <a href="Nintendo.html">
-              <h3>Nintendo</h3>
-              <div class="meta">
-                <time>19 May 2021 - 19 May 2021</time><span class="separator">,</span>
-                <span class="summary">1 photo</span>
-              </div>
-              <ul class="grid clearfix"><li><img src="media/thumbs/Nintendo/placeholder.jpg" /></li><li><img src="public/missing.png" /></li><li><img src="public/missing.png" /></li><li><img src="public/missing.png" /></li><li><img src="public/missing.png" /></li><li><img src="public/missing.png" /></li><li><img src="public/missing.png" /></li><li><img src="public/missing.png" /></li>          </ul>
-            </a>
-          </li><li>
-            <a href="Sony.html">
-              <h3>Sony</h3>
-              <div class="meta">
-                <time>19 May 2021 - 19 May 2021</time><span class="separator">,</span>
-                <span class="summary">5 albums, 19 photos</span>
-              </div>
-              <ul class="grid clearfix"><li><img src="media/thumbs/Sony/A.jpg" /></li><li><img src="media/thumbs/Sony/Playstation%201/Playstation_1_Greatest_Hits_(NTSC-U)_600x100.png" /></li><li><img src="media/thumbs/Sony/Playstation%201/Playstation_1_Platinum_(MULTI)_600x100.png" /></li><li><img src="media/thumbs/Sony/Playstation%201/Playstation_1_Standard_(MULTI)_600x100.png" /></li><li><img src="media/thumbs/Sony/Playstation%202/Playstation_2_Greatest_Hits_(NTSC-U)_600x100.png" /></li><li><img src="media/thumbs/Sony/Playstation%202/Playstation_2_Platinum_(MULTI)_600x100.png" /></li><li><img src="media/thumbs/Sony/Playstation%202/Playstation_2_Standard_(MULTI)_600x100.png" /></li><li><img src="media/thumbs/Sony/Playstation%203/Playstation_3_Blue_(MULTI)_600x100.png" /></li>          </ul>
-            </a>
-          </li>    </ul>
+    <!--
+      Zip file link
+    -->
     
-        <!--
-          All photos and videos
-        -->
-        <ul id="media">
-        </ul>
     
-        <!--
-          Pagination
-        -->
-    
-        <!--
-          Zip file link
-        -->
-    
-      </section>
-    
-      <!--
-        Optional footer
-      -->
-      <footer>
-        <p>(c) Papa Spiritus IV 2021</p>
-      </footer>
-    
-    </div>
+    <!--
+      Optional footer
+    -->
+    <footer>
+      <p>(c) Papa Spiritus IV 2021</p>
+    </footer>
     <!-- Video loader -->
     <div id="videos">
     </div>

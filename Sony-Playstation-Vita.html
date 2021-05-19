@@ -14,75 +14,60 @@
 
   <body>
 
-    <div>
+    <header>
+      <a href="index.html">
+        <h1>Playnite Graphics Repository</h1>
+      </a>
+    </header>
     
-      <!--
-        Gallery title
-      -->
-      <header style="color: #17baef;">
-        <h1><a href="index.html">Playnite Graphics Repository</a></h1>
-      </header>
-    
-      <!--
-        Breadcrumbs of parent albums
-      -->
-    
+    <!--
+      Breadcrumbs of parent albums
+    -->
       <nav class="breadcrumbs">
-        <div class="mask"></div>
-    <a class="breadcrumb-item" href="index.html">Home</a>
-          <span class="separator">&gt;</span><a class="breadcrumb-item" href="Sony.html">Sony</a>
-          <span class="separator">&gt;</span><a class="breadcrumb-item" href="Sony-Playstation-Vita.html">Playstation Vita</a>
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a class="breadcrumb-item" href="Sony.html">Sony</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a class="breadcrumb-item" href="Sony-Playstation-Vita.html">Playstation Vita</a>
       </nav>
     
-      <!--
-        Main gallery panel
-      -->
-      <section id="content">
+    <!--
+      Nested albums
+    -->
+    <ul id="galleries">
+    </ul>
     
-        <!--
-          Nested albums, if any
-        -->
-        <ul id="albums">
-        </ul>
+    <!--
+      Render all thumbnails
+    -->
+    <ul id="media">
+        
+          <li data-src="media/large/Sony/Playstation%20Vita/placeholder.jpg"
+              data-sub-html=""
+              data-download-url="media/original/Sony/Playstation%20Vita/placeholder.jpg"
+              
+              data-filename="placeholder.jpg"
+        
+            >
+            <a href="media/original/Sony/Playstation%20Vita/placeholder.jpg">
+              <img src="media/thumbs/Sony/Playstation%20Vita/placeholder.jpg"
+                   width="100"
+                   height="100"
+                   alt="placeholder.jpg" />
+            </a>
+          </li></ul>
     
-        <!--
-          All photos and videos
-        -->
-        <ul id="media">
-            
-              <li data-src="media/large/Sony/Playstation%20Vita/placeholder.jpg"
-                  data-sub-html=""
-                  data-download-url="media/original/Sony/Playstation%20Vita/placeholder.jpg"
-                  
-                  data-filename="placeholder.jpg"
-            
-                >
-                <a href="media/original/Sony/Playstation%20Vita/placeholder.jpg">
-                  <img src="media/thumbs/Sony/Playstation%20Vita/placeholder.jpg"
-                       width="100"
-                       height="100"
-                       alt="placeholder.jpg" />
-                </a>
-              </li>    </ul>
+    <!--
+      Pagination
+    -->
     
-        <!--
-          Pagination
-        -->
+    <!--
+      Zip file link
+    -->
     
-        <!--
-          Zip file link
-        -->
     
-      </section>
-    
-      <!--
-        Optional footer
-      -->
-      <footer>
-        <p>(c) Papa Spiritus IV 2021</p>
-      </footer>
-    
-    </div>
+    <!--
+      Optional footer
+    -->
+    <footer>
+      <p>(c) Papa Spiritus IV 2021</p>
+    </footer>
     <!-- Video loader -->
     <div id="videos">
     </div>
