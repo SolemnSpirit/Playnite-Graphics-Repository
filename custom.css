@@ -16,3 +16,6 @@ body {
   margin-bottom: 1em;
 }
 
+#inner p:nth-of-type(2) .summary:nth-child(2) {
+    color: green;
+}
