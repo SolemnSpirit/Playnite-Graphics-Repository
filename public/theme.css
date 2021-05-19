@@ -154,46 +154,21 @@ nav.pagination a {
 .date {
 	font-family: Courier;
 	color: BlueViolet;
-	font-size: 10px;
+	font-size: 15px;
 	font-style: italic;
 }
 /* Your custom styles goes here */
 
-body {
+/*body {
   background: Silver;
   color: #444;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: lighter;
   margin-bottom: 1em;
-}
+}*/
 
-#inner .summary:nth-of-type(2) .summary:nth-child(2) {
-    color: green;
-}
-
-<script>
-var replaceText = function replaceText(element, search, replace) {
-    var nodes = element.childNodes;
-
-    for (var i = 0, length = nodes.length; i < length; i++) {
-
-        var node = nodes[i];
-
-        if (node.childNodes.length) {
-            replaceText(node, search, replace);
-            continue;
-        }
-
-        if (node.nodeType != 3) {
-            continue;
-        }
-
-        node.data = node.data.replace(new RegExp(search, 'g'), replace);
-    }
-
-}
-
-
-replaceText(document.body, 'photos', 'poo');
-</script>
+@body-background: #000000;
+@body-color: #444;
+@header-color: #444;
+@nav-border: #fff;
