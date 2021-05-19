@@ -154,8 +154,18 @@ nav.pagination a {
 .date {
 	font-family: Courier;
 	color: red;
-	font-size:10px;
+	font-size: 10px;
+	font-style: italic;
 }
 /* Your custom styles goes here */
+
+body {
+  background: #000000;
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-bottom: 1em;
+}
 
 
