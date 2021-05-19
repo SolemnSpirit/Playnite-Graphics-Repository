@@ -159,16 +159,17 @@ nav.pagination a {
 }
 /* Your custom styles goes here */
 
-/*body {
+body {
   background: Silver;
   color: #444;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: lighter;
   margin-bottom: 1em;
-}*/
+}
 
-@body-background: #000000;
-@body-color: #444;
-@header-color: #444;
+header {
+  color: BlueViolet;
+}
+
 @nav-border: #fff;
