@@ -6,71 +6,72 @@
       <meta name="viewport" content="width=device-width, user-scalable=no" />
       <title>Playnite Graphics Repository - Home</title>
       <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
-      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
       <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
       <link rel="stylesheet" href="public/core.css" />
       <link rel="stylesheet" href="public/theme.css" />
   </head>
 
   <body>
 
-    <header>
-      <a href="index.html">
-        <h1>Playnite Graphics Repository</h1>
-      </a>
-    </header>
     
-    <!--
-      Breadcrumbs of parent albums
-    -->
+    <div id="container">
     
-    <!--
-      Nested albums
-    -->
-    <ul id="galleries">
-     <li>
-       <a href="Nintendo.html">
-         <h3>Nintendo</h3>
-         <div class="meta">
-           1 photo<br />
-           19 May 2021 - 19 May 2021
-         </div>
-         <ul class="grid"><li><img src="media/thumbs/Nintendo/placeholder.jpg" /></li><li><img src="public/missing.png" /></li><li><img src="public/missing.png" /></li><li><img src="public/missing.png" /></li>     </ul>
-       </a>
-     </li>
-     <li>
-       <a href="Sony.html">
-         <h3>Sony</h3>
-         <div class="meta">
-           5 albums, 19 photos<br />
-           19 May 2021 - 19 May 2021
-         </div>
-         <ul class="grid"><li><img src="media/thumbs/Sony/A.jpg" /></li><li><img src="media/thumbs/Sony/Playstation%201/Playstation_1_Greatest_Hits_(NTSC-U)_600x100.png" /></li><li><img src="media/thumbs/Sony/Playstation%201/Playstation_1_Platinum_(MULTI)_600x100.png" /></li><li><img src="media/thumbs/Sony/Playstation%201/Playstation_1_Standard_(MULTI)_600x100.png" /></li>     </ul>
-       </a>
-     </li>
-    </ul>
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">Playnite Graphics Repository</a></h1>
+      </header>
     
-    <!--
-      Render all thumbnails
-    -->
-    <ul id="media">
-    </ul>
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>
+      </nav>
     
-    <!--
-      Pagination
-    -->
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums">
+    <a href="Nintendo.html" style="background-image: url('media/small/Nintendo/placeholder.jpg')">
+            <div class="info">
+              <h3>Nintendo</h3>
+              <div class="summary">1 photo</div>
+              <div class="date">19 May 2021 - 19 May 2021</div>
+            </div>
+          </a><a href="Sony.html" style="background-image: url('media/small/Sony/A.jpg')">
+            <div class="info">
+              <h3>Sony</h3>
+              <div class="summary">5 albums, 19 photos</div>
+              <div class="date">19 May 2021 - 19 May 2021</div>
+            </div>
+          </a>  </div>
     
-    <!--
-      Zip file link
-    -->
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+      </ul>
+    
+      <!--
+        Pagination
+      -->
+    
+      <!--
+        Zip file link
+      -->
     
     
-    <!--
-      Optional footer
-    -->
-    <footer>
-      <p>(c) Papa Spiritus IV 2021</p>
-    </footer>
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>(c) Papa Spiritus IV 2021</p>
+      </footer>
+    
+    </div>
     <!-- Video loader -->
     <div id="videos">
     </div>
