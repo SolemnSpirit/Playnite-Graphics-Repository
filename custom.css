@@ -3,13 +3,15 @@
 
 
 .summary {
-	font-Green;
+	font-family: Courier;
+	color: Green;
 	font-size: 15px;
 	font-style: italic;
 }
 
 .date {
-	font-Green;
+	font-family: Courier;
+	color: Red;
 	font-size: 15px;
 	font-style: italic;
 }
