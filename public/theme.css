@@ -152,7 +152,12 @@ nav.pagination a {
 }
 /* Your custom styles goes here */
 
-
+.info {
+	font-family: Courier;
+	color: Blue;
+	font-size: 15px;
+	font-style: italic;
+}
 
 .summary {
 	font-family: Courier;
