@@ -151,12 +151,28 @@ nav.pagination a {
   color: #3399ff;
 }
 /* Your custom styles goes here */
-.date {
+
+.info {
 	font-family: Courier;
-	color: BlueViolet;
+	color: Blue;
 	font-size: 15px;
 	font-style: italic;
 }
+
+.info summary {
+	font-Green;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.info date {
+	font-Green;
+	font-size: 15px;
+	font-style: italic;
+}
+
+
+
 /* Your custom styles goes here */
 
 body {
