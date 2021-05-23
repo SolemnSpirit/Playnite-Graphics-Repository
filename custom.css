@@ -1,7 +1,7 @@
 /* Your custom styles goes here */
 
 /* Album name */
-.info {
+h3 {
 	font-family: Courier;
 	color: Blue;
 	font-size: 15px;
