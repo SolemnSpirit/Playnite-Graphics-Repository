@@ -31,7 +31,7 @@ h3 {
   position: relative;
   overflow: hidden;
   width: 250px;
-  height: 250px;
+  height: 100px;
   background-size: cover;
   border-radius: 4px;
 }
